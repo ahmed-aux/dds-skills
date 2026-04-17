@@ -1,9 +1,9 @@
 ---
-name: link-ds
+name: dds-tool-link-ds
 description: Runs the full link-ds workflow — switches to Node 22.11.0, clears Vite cache, reinstalls dependencies, links livingston-npm-components, ensures the optimizeDeps exclude config is active in vite.config.ts, then starts the dev server. Trigger this skill whenever the user says "link-ds", "run link-ds", "link the design system", or asks to set up or relink the livingston-npm-components package. Always use this skill for that workflow rather than running the steps ad hoc.
 ---
 
-# link-ds
+# dds-tool-link-ds
 
 Executes the full clean-link-dev workflow for the design system package. Follow each step in order, waiting for the previous to complete before starting the next.
 
