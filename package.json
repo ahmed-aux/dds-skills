@@ -1,0 +1,25 @@
+{
+  "name": "dds-skills",
+  "version": "0.1.2",
+  "description": "CLI to install Claude skills into your projects",
+  "type": "module",
+  "bin": {
+    "dds-skills": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "~5.4.0"
+  },
+  "dependencies": {
+    "skills": "^1.5.0"
+  }
+}
