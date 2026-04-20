@@ -1,6 +1,6 @@
 ---
 name: dds-tool-prep-ds-pr
-description: Runs the full PR preparation workflow for the design system — installs the latest livingston-npm-components, comments out the optimizeDeps exclude config in vite.config.ts, runs all doc/bundle extraction scripts, then instructs the developer to run the final build. Trigger this skill whenever the user says "prep-ds-pr", "prep the PR", "prepare the design system PR", or asks to get the code ready for a pull request.
+description: Prepare the design system for a PR — installs latest npm package, runs all extraction scripts, updates vite.config.ts.
 ---
 
 # dds-tool-prep-ds-pr
