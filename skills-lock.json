@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "dds-docs": {
+      "source": "ahmed-aux/dds-skills",
+      "sourceType": "github",
+      "computedHash": "811731851c162e7c4017f17eeb06363e7a9a8924a40062f2bcab66bbb9476614"
+    }
+  }
+}
